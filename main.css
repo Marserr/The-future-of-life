@@ -1,0 +1,91 @@
+body {
+  background: rgb(255,0,0);
+  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(252,126,0,1) 56%, rgba(194,172,45,1) 100%);
+
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+.left {
+  border: solid;
+  border-color: green;
+  display: flex;
+  padding-right: 500px;
+  align-items: baseline;
+}
+.right {
+  border: solid;
+  border-color: green;
+  display: flex;
+}
+.uper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.lower {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+li {
+  list-style: none;
+}
+a {
+  style: none;
+}
+.arrow {
+  width: 30px;
+  height: auto;
+}
+h3 {
+  font-size: 150px;
+  font: Arial;
+}
+.future {
+  padding-left: 100px;
+}
+.onetoarrow {
+  justify-content: space-between;
+  padding-left: 100px;
+}
+.onetwo {
+  display: flex;
+}
+.readmorearrow {
+  display: flex;
+  padding-left: 550px;
+}
+.glass {
+  width: 50px;
+  height: auto;
+  border: solid;
+  border-color: green;
+}
+.indent {
+  width: 100px;
+  height: 100px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.AI {
+  border-top: solid;
+}
+.Nuke {
+  border-top: solid;
+}
+.Global {
+  border-top: solid;
+}
+.Lethal{
+  border-top: solid;
+}
